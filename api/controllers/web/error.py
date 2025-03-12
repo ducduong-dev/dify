@@ -43,7 +43,7 @@ class ProviderNotInitializeError(BaseHTTPException):
 class ProviderQuotaExceededError(BaseHTTPException):
     error_code = "provider_quota_exceeded"
     description = (
-        "Your quota for Dify Hosted OpenAI has been exhausted. "
+        "Your quota for IDX Hosted OpenAI has been exhausted. "
         "Please go to Settings -> Model Provider to complete your own provider credentials."
     )
     code = 400
